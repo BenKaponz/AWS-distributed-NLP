@@ -1,0 +1,28 @@
+# ignore input/output assignments
+/input*
+/output*
+/Assignment*
+/commands.txt
+
+# build directories
+target/
+.mvn/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Java temp / logs
+*.log
+*.tmp
+
+# security keys
+*.pem
+*.key
+*.credentials
